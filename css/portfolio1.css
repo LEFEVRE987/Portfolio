@@ -1,0 +1,66 @@
+html
+{
+display: flex; 
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(193, 196, 197);
+margin: 0px;
+margin-left: 200px;
+margin-right: 100px;
+background-color: black;
+background-image: url("../css/image/sphere.jpeg")
+}
+
+.cydra
+{
+    background-image: url("../css/image/city.jpeg");
+    height: 260px;
+    width: 1460px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#frog
+{
+overflow: hidden;
+background-image: url("../css/image/grey1.jpeg");
+width: 1460px;
+margin: 5px -1px;
+}
+
+#frog a
+{
+float: left;
+color: white;
+background-color: rgb(88, 83, 83);
+display: flex;
+text-align: right;
+padding: 14px 20px;
+text-decoration: none;
+font-size: 17px;
+justify-content: space-around;
+background-image: url("../css/image/grey1.jpeg");
+}
+
+#frog a:hover
+{
+float: left;
+color: rgb(200, 201, 255);
+background-image: url("../css/image/stone.jpeg");
+}
+
+#draco
+{
+float: right;
+cursor: pointer;
+margin-right: 350px;
+margin-top: 5px;
+}
+
+.oui
+{
+text-align: center;
+color: rgb(255, 255, 255);
+margin-top: 27px;
+}
+

@@ -1,0 +1,69 @@
+/* test */
+*{
+    border: 1px black solid;
+    background: black;
+}
+
+#mon_id
+{
+    /* largeur */
+width: 100%;
+
+/* longueur */
+height: 200;
+
+display: flex;
+justify-content: space-around;
+background: black;
+color: rgb(231, 143, 143);
+}
+
+.ma_classe
+{
+    border: 3px black;
+    /* largeur */
+    width: 100px;
+
+    /* longueur */
+    height: 200px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    transition-property: width;
+    transition-duration: 1s;
+background: black;
+}
+
+.ma_classe:hover
+{
+    border: 3px rgb(231, 143, 143) solid;
+    /* largeur */
+    width: 200px;
+
+    /* longueur */
+    height: 200px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    box-shadow: 0px 1px 2px 3px;
+
+}
+
+img
+{
+    width: 100%;
+}
+
+

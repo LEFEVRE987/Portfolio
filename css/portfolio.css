@@ -1,0 +1,256 @@
+html
+{
+display: flex; 
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(193, 196, 197);
+margin: 0px;
+margin-left: 200px;
+margin-right: 100px;
+background-color: black;
+background-image: url("../css/image/sphere.jpeg")
+}
+
+.cydra
+{
+    background-image: url("../css/image/city.jpeg");
+    height: 260px;
+    width: 1900px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#frog
+{
+overflow: hidden;
+background-image: url("../css/image/grey1.jpeg");
+width: 1900px;
+margin: 5px -1px;
+}
+
+#frog a
+{
+float: left;
+color: white;
+background-color: rgb(88, 83, 83);
+display: flex;
+text-align: right;
+padding: 14px 20px;
+text-decoration: none;
+font-size: 17px;
+justify-content: space-around;
+background-image: url("../css/image/grey1.jpeg");
+}
+
+#frog a:hover
+{
+float: left;
+color: rgb(161, 71, 245);
+background-image: url("../css/image/stone.jpeg");
+}
+
+#draco
+{
+float: right;
+cursor: pointer;
+margin-right: 350px;
+margin-top: 5px;
+}
+
+.oui
+{
+text-align: center;
+color: rgb(255, 255, 255);
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.zombie
+{
+    float:center;
+    border: 3px black;
+    /* largeur */
+    width: 565px;
+
+    /* longueur */
+    height: 320px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 665px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    transition-property: width;
+    transition-duration: 0s;
+background: black;
+}
+
+.zombie:hover
+{
+    border: 3px white solid;
+    /* largeur */
+    width: 565px;
+
+    /* longueur */
+    height: 320px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    box-shadow: 0px 1px 2px 3px;
+
+}
+
+#esta
+{
+    width: 100%;
+    height: 200;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ma_classe1
+{
+    border: 3px white;
+    width: 100px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    transition-property: width;
+    transition-duration: 1s;
+    background-image: url(../css/image/red1.jpg);
+}
+
+.ma_classe1:hover
+{
+    border: 3px white solid;
+    width: 20%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 2px 3px;
+}
+
+.ma_classe2
+{
+    border: 3px white;
+    width: 100px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    transition-property: width;
+    transition-duration: 1s;
+    background-image: url(../css/image/blue1.jpg);
+}
+
+.ma_classe2:hover
+{
+    border: 3px white solid;
+    width: 20%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 2px 3px;
+}
+
+.ma_classe3
+{
+    border: 3px white;
+    width: 100px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    transition-property: width;
+    transition-duration: 1s;
+    background-image: url(../css/image/green.jpg);
+}
+
+.ma_classe3:hover
+{
+    border: 3px white solid;
+    width: 20%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 2px 3px;
+}
+
+.ma_classe4
+{
+    border: 3px white;
+    width: 100px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    transition-property: width;
+    transition-duration: 1s;
+    background-image: url(../css/image/white.jpeg);
+}
+
+.ma_classe4:hover
+{
+    color: aliceblue;
+    border: 3px white solid;
+    width: 20%;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 2px 3px;
+}
+
+.titre
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 120px;
+    color: rgb(93, 23, 158);
+
+}
+
+.para
+{
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+}
