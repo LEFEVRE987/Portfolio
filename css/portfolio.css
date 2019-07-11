@@ -14,7 +14,7 @@ background-image: url("../css/image/sphere.jpeg")
 {
     background-image: url("../css/image/city.jpeg");
     height: 260px;
-    width: 1900px;
+    width: 1460px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -24,7 +24,7 @@ background-image: url("../css/image/sphere.jpeg")
 {
 overflow: hidden;
 background-image: url("../css/image/grey1.jpeg");
-width: 1900px;
+width: 1460px;
 margin: 5px -1px;
 }
 
@@ -45,7 +45,7 @@ background-image: url("../css/image/grey1.jpeg");
 #frog a:hover
 {
 float: left;
-color: rgb(161, 71, 245);
+color: rgb(200, 201, 255);
 background-image: url("../css/image/stone.jpeg");
 }
 
@@ -61,8 +61,7 @@ margin-top: 5px;
 {
 text-align: center;
 color: rgb(255, 255, 255);
-margin-top: 50px;
-margin-bottom: 50px;
+margin-top: 27px;
 }
 
 .zombie
