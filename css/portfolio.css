@@ -3,10 +3,10 @@ html
 display: flex; 
 font-family: Arial, Helvetica, sans-serif;
 color: rgb(193, 196, 197);
-margin: 0px;
+margin: 00px;
 margin-left: 200px;
 margin-right: 100px;
-background-color: black;
+background-color: rgb(153, 153, 153);
 background-image: url("../css/image/sphere.jpeg")
 }
 
@@ -62,12 +62,13 @@ margin-top: 5px;
 text-align: center;
 color: rgb(255, 255, 255);
 margin-top: 27px;
+margin-bottom: 27px;
 }
 
 .zombie
 {
     float:center;
-    border: 3px black;
+    border: 1px black;
     /* largeur */
     width: 565px;
 
@@ -85,7 +86,7 @@ margin-top: 27px;
 
     transition-property: width;
     transition-duration: 0s;
-background: black;
+    background: black;
 }
 
 .zombie:hover
@@ -115,6 +116,7 @@ background: black;
     height: 200;
     display: flex;
     justify-content: space-around;
+    color: azure;
 }
 
 .ma_classe1
@@ -131,6 +133,7 @@ background: black;
     transition-property: width;
     transition-duration: 1s;
     background-image: url(../css/image/red1.jpg);
+    font-size: 20px;
 }
 
 .ma_classe1:hover
@@ -161,6 +164,8 @@ background: black;
     transition-property: width;
     transition-duration: 1s;
     background-image: url(../css/image/blue1.jpg);
+    color-adjust: white;
+    font-size: 20px;
 }
 
 .ma_classe2:hover
@@ -191,6 +196,9 @@ background: black;
     transition-property: width;
     transition-duration: 1s;
     background-image: url(../css/image/green.jpg);
+    color: aliceblue;
+    font-size: 20px;
+    
 }
 
 .ma_classe3:hover
@@ -221,6 +229,8 @@ background: black;
     transition-property: width;
     transition-duration: 1s;
     background-image: url(../css/image/white.jpeg);
+    font-size: 20px;
+    color: aliceblue;
 }
 
 .ma_classe4:hover
@@ -236,6 +246,7 @@ background: black;
     padding-right: 10px;
     padding-bottom: 10px;
     box-shadow: 0px 1px 2px 3px;
+    
 }
 
 .titre
@@ -245,11 +256,11 @@ background: black;
     font-style: italic;
     margin-top: 120px;
     color: rgb(93, 23, 158);
-
+    text-decoration: underline;
 }
 
 .para
 {
-    font-size: 25px;
+    font-size: 27px;
     color: rgb(253, 253, 253);
 }
